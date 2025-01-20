@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Invite</title>
+    <style>
+        body {
+            background-color: pink;
+            color: red;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h1>What day can I book you for?</h1>
+    <p>Just wanna know which day I should stand outside your window with a boombox <3 </p>
+    
+    <!-- Audio Player -->
+    <audio controls>
+        <source src="./Lady, Lady, Lady.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Form for Date Selection -->
+    <form class="form-group">
+        <div>
+            <input type="date" required>
+           
+            <br/><label> Which day? (If it were up to me, it'd be all of the above)</label>
+        </div>
+    </form>
+
+    <!-- Link to Choices Page -->
+    <a href="./options/choices.html">
+        <button class="button">What's the move?</button>
+    </a>
+</body>
+</html>
